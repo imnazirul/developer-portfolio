@@ -23,6 +23,9 @@ nav ul {
 nav ul li {
   margin-right: 50px;
 }
+nav ul li a:hover {
+  color: #fd6e0a;
+}
 nav h1 {
   color: #181818;
   font-size: 45px;
@@ -44,9 +47,15 @@ nav ul a {
   height: 60px;
   flex-shrink: 0;
   color: #fff;
-  border: 0;
+  border: 1px solid #fd6e0a;
   font-size: 20px;
   font-weight: 700;
+}
+.primary-btn:hover {
+  color: #fd6e0a;
+  cursor: pointer;
+
+  background-color: #fae5d6;
 }
 /* banner styles */
 .banner {
