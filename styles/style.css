@@ -255,6 +255,8 @@ textarea {
   width: 90%;
   border: none;
   margin-bottom: 25px;
+  border-radius: 5px;
+  outline: none;
 }
 
 .input-form textarea {
