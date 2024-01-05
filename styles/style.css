@@ -158,3 +158,59 @@ nav ul a {
 .skills {
   padding: 30px;
 }
+
+/* resume styles */
+
+.resume-container {
+  width: 80%;
+  padding: 50px 30px;
+  margin: 0 auto;
+}
+.resume-container h1 {
+  color: #181818;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.resume {
+  display: flex;
+  gap: 70px;
+}
+.resume hr {
+  margin: 30px 10px;
+}
+
+.resume h1 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resume-info-item h2 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-info-item h3 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume-info-item p {
+  color: #757575;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.cv {
+  text-align: center;
+  margin-top: 50px;
+}
