@@ -138,3 +138,23 @@ nav ul a {
   font-weight: 700;
   line-height: 30px;
 }
+
+.what-i-do {
+  width: 80%;
+  padding: 30px 50px;
+  margin: 130px auto;
+}
+
+.skills-container {
+  display: flex;
+  gap: 50px;
+}
+.skills img {
+  margin-bottom: 30px;
+}
+.skill-title {
+  margin-bottom: 20px;
+}
+.skills {
+  padding: 30px;
+}
