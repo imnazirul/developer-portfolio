@@ -12,8 +12,9 @@ nav {
   display: flex;
   background-color: #fff8f3;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
-  padding: 50px 200px 0px;
+  padding: 30px 100px 0px;
 }
 nav ul {
   display: flex;
@@ -28,7 +29,7 @@ nav ul li a:hover {
 }
 nav h1 {
   color: #181818;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 800;
 }
 nav h1 span {
@@ -43,12 +44,12 @@ nav ul a {
 .primary-btn {
   border-radius: 5px;
   background: #fd6e0a;
-  padding: 10px 25px;
+  padding: 5px 20px;
   height: 60px;
   flex-shrink: 0;
   color: #fff;
   border: 1px solid #fd6e0a;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .primary-btn:hover {
@@ -59,6 +60,7 @@ nav ul a {
 }
 /* banner styles */
 .banner {
+  width: 100%;
   background-color: #fff8f3;
   display: flex;
   background-image: url("../images/developer.png"),
@@ -99,7 +101,6 @@ nav ul a {
 
 .about-container {
   width: 80%;
-  height: 550px;
   flex-shrink: 0;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -227,7 +228,6 @@ nav ul a {
 footer {
   display: flex;
   gap: 100px;
-
   width: 100%;
   margin: 130px 0 0 0px;
   padding: 130px 230px;
@@ -271,4 +271,51 @@ textarea {
 .input-form textarea {
   resize: none;
   height: 200px;
+}
+
+@media screen and (max-width: 576px) {
+  nav,
+  footer {
+    flex-direction: column;
+    padding: 30px;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav ul,
+  .about-details,
+  .skills-container,
+  .resume,
+  footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .resume-container h1 {
+    font-size: 30px;
+  }
+  nav h1 {
+    margin-bottom: 10px;
+  }
+  nav > ul li {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+  .banner {
+    flex-direction: column;
+    background-image: none;
+    padding: 30px;
+  }
+  .primary-btn {
+    margin-bottom: 20px;
+  }
+  .about-container {
+    padding: 30px;
+  }
+  .what-i-do {
+    padding: 30px;
+  }
+  .connect,
+  .message {
+    width: 100%;
+  }
 }
